@@ -1,0 +1,29 @@
+@font-face {
+    font-family:Ubuntu ;
+    src: url(Ubuntu-Regular.ttf);
+}
+
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    height:100vh;
+    margin:0;
+}
+.bg{
+    background: url(vlcsnap-2023-10-29-13h08m54s940.png);
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    filter: blur(70px);
+    background-position-y:-50px;
+    background-position-x:-250px;
+}
+.loading-text{
+font-size: 50px;
+font-family: Ubuntu;
+color:white;
+}
